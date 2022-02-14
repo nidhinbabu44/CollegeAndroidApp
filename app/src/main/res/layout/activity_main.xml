@@ -1,0 +1,61 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/login_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="Email ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </TextView>
+
+    <EditText
+        android:drawableLeft="@drawable/username"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </EditText>
+
+    <TextView
+        android:text="Password"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </TextView>
+
+    <EditText
+        android:drawableLeft="@drawable/pass"
+        android:inputType="textPassword"
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Login"
+        android:textColor="@color/white"
+        android:id="@+id/logbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/button">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Go To Register"
+        android:textColor="@color/white"
+        android:background="@color/button"
+        android:id="@+id/regbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</LinearLayout>

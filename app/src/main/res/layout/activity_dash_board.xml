@@ -1,0 +1,72 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/login_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Add Student"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:id="@+id/stubut"
+        android:background="@color/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Add Faculity"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:id="@+id/facbut"
+        android:background="@color/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Search Student"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:id="@+id/searchstubut"
+        android:background="@color/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Search Faculity"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:id="@+id/searchfacbut"
+        android:background="@color/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="View Website"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:id="@+id/viewwebbut"
+        android:background="@color/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Log Out"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:id="@+id/logout"
+        android:background="@color/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

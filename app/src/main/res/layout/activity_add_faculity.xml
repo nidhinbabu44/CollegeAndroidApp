@@ -1,0 +1,104 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/login_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="Faculity Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/facname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </EditText>
+
+    <TextView
+        android:text="Department "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/dept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </EditText>
+
+    <TextView
+        android:text=" Qualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/qualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </EditText>
+    <TextView
+        android:text="Mobile Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </TextView>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/mobnmumfac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </EditText>
+
+    <TextView
+        android:text="Email ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/emailfac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </EditText>
+
+
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Submit "
+        android:textSize="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/facsubbut"
+        android:background="@color/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Back To Login"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:id="@+id/backbut"
+        android:background="@color/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>
